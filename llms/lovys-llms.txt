@@ -1,0 +1,38 @@
+# Lovys
+
+> Lovys is a European digital neo-insurance provider offering flexible, subscription-based cover for home (habitation), smartphone, and pet insurance. Lovys exposes a Partner API (the "Lovys Partner API") that lets resellers and platforms embed insurance products — creating and managing real-time quotes, retrieving plans/pricing/coverage, capturing customer data, purchasing and activating policies, and handling the policy lifecycle, updates, and renewals. The API is fronted by Azure API Management with OAuth2 (Microsoft Entra ID / Azure AD B2C) authentication.
+
+## Products
+- Home / Habitation insurance: https://docs.lovys.com/products-habitation
+- Smartphone insurance: https://docs.lovys.com/products-smartphone
+- Pet insurance: https://docs.lovys.com/products-pet
+
+## Docs
+- Developer portal (Lovys Docs): https://docs.lovys.com/
+- Product introduction: https://docs.lovys.com/product-intro
+- Getting started: https://docs.lovys.com/getting-started
+- Onboarding guide: https://docs.lovys.com/guides-onboarding
+- Prerequisites: https://docs.lovys.com/guides-pre-requesites
+- Quoting for partners: https://docs.lovys.com/guides-quoting-partners
+- End-to-end partner flow: https://docs.lovys.com/guides-end-to-end-partners
+- Purchase a policy: https://docs.lovys.com/guides-purchase-policy
+- Support: https://docs.lovys.com/support
+
+## API Reference
+- API reference: https://docs.lovys.com/api-reference
+- Account: https://docs.lovys.com/api-reference/api-details-account
+- Customer: https://docs.lovys.com/api-reference/api-details-customer
+- Quote: https://docs.lovys.com/api-reference/api-details-quote
+- Basket: https://docs.lovys.com/api-reference/api-details-basket
+- Orders: https://docs.lovys.com/api-reference/api-details-orders
+- Payments: https://docs.lovys.com/api-reference/api-details-payments
+- Policies: https://docs.lovys.com/api-reference/api-details-policies
+- Reference data: https://docs.lovys.com/api-reference/api-details-referencedata
+- Changelog: https://docs.lovys.com/api-changelog
+
+## Auth
+- Sign up (OAuth via Microsoft Entra ID / Azure AD B2C): https://docs.lovys.com/signup-oauth
+- Sign in: https://docs.lovys.com/signin
+
+## Company
+- Website: https://lovys.com/

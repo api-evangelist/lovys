@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.lovys.com/getting-started
+docs: https://docs.lovys.com/getting-started
+notes: >-
+  The Lovys Partner API is fronted by Azure API Management. Partner sign-up and
+  authentication are handled through Microsoft Entra ID / Azure Active Directory
+  B2C (see https://docs.lovys.com/signup-oauth), so access is OAuth2-based. The
+  getting-started guide documents an Authentication section plus a "Reseller
+  Identification" step, indicating a partner/reseller-scoped OAuth credential in
+  addition to reseller identification headers. The published developer portal is
+  an early-stage scaffold (placeholder bodies), so exact token URLs, flows, and
+  scopes are not yet public; captured here from the documented surfaces only.
+summary:
+  types:
+  - oauth2
+  identity_provider: Microsoft Entra ID / Azure AD B2C
+  gateway: Azure API Management
+schemes:
+- name: oauth2
+  type: oauth2
+  provider: Microsoft Entra ID / Azure Active Directory B2C
+  source: https://docs.lovys.com/signup-oauth
+  reseller_identification: true
