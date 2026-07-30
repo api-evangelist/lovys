@@ -1,7 +1,33 @@
 aid: lovys
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lovys.png
 name: Lovys
-description: Lovys is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lovys is a European digital neo-insurance provider offering flexible,
+  subscription-based cover for home (habitation), smartphone, and pet insurance,
+  designed to be managed entirely online and adjusted month to month. Beyond its
+  direct-to-consumer product, Lovys operates a Partner API (the "Lovys Partner
+  API") that lets resellers and platforms embed insurance into their own
+  experiences: creating and managing real-time quotes, retrieving plans, pricing
+  and coverage options, capturing and managing customer data, enabling policy
+  purchase and activation, and handling the policy lifecycle, updates, and
+  renewals. The Partner API is fronted by Azure API Management and authenticated
+  with OAuth2 via Microsoft Entra ID / Azure Active Directory B2C. The public
+  developer portal (docs.lovys.com) documents getting-started, onboarding,
+  quoting, purchase, and end-to-end partner guides alongside an API reference
+  covering account, customer, quote, basket, orders, payments, policies, and
+  reference-data resources.
 url: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +37,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Insurance
+- Insurtech
+- Embedded Insurance
+- Partner API
+- Home Insurance
+- Pet Insurance
+- Smartphone Insurance
+- OAuth2
+- Azure API Management
+apis:
+- name: Lovys Partner API
+  description: >-
+    Partner/reseller REST API to embed Lovys insurance products — real-time
+    quotes, plans/pricing/coverage, customer data, policy purchase and
+    activation, and policy lifecycle/renewals across home, smartphone, and pet
+    insurance. Fronted by Azure API Management with OAuth2 (Microsoft Entra ID /
+    Azure AD B2C) authentication. Public developer portal is an early-stage
+    scaffold; no downloadable OpenAPI spec published yet.
+  humanURL: https://docs.lovys.com/
+  properties:
+  - type: APIReference
+    url: https://docs.lovys.com/api-reference
+  - type: GettingStarted
+    url: https://docs.lovys.com/getting-started
+  - type: Authentication
+    url: authentication/lovys-authentication.yml
+  - type: ChangeLog
+    url: https://docs.lovys.com/api-changelog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +76,30 @@ maintainers:
 common:
 - type: Website
   url: https://lovys.com/
+- type: DeveloperPortal
+  url: https://docs.lovys.com/
+- type: Documentation
+  url: https://docs.lovys.com/
+- type: APIReference
+  url: https://docs.lovys.com/api-reference
+- type: GettingStarted
+  url: https://docs.lovys.com/getting-started
+- type: ChangeLog
+  url: https://docs.lovys.com/api-changelog
+- type: Support
+  url: https://docs.lovys.com/support
+- type: SignUp
+  url: https://docs.lovys.com/signup
+- type: Login
+  url: https://docs.lovys.com/signin
+- type: Authentication
+  url: authentication/lovys-authentication.yml
+- type: DomainSecurity
+  url: security/lovys-domain-security.yml
+- type: LLMsTxt
+  url: llms/lovys-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
