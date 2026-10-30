@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lovys is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Lovys is a European digital neo-insurance provider offering flexible, subscription-based cover for home (habitation), smartphone, and pet insurance, designed to be managed entirely online and adjusted month to month. Beyond its direct-to-consumer product, Lovys operates a Partner API (the "Lovys Partner API") that lets resellers and platforms embed insurance into their own experiences: creating and managing real-time quotes, retrieving plans, pricing and coverage options, capturing and managing customer data, enabling policy purchase and activation, and handling the policy lifecycle, updates, and renewals. The Partner API is fronted by Azure API Management and authenticated with OAuth2 via Microsoft Entra ID / Azure Active Directory B2C. The public developer portal (docs.lovys.com) documents getting-started, onboarding, quoting, purchase, and end-to-end partner guides alongside an API reference covering account, customer, quote, basket, orders, payments, policies, and reference-data resources.
 
-Backed by: techstars — https://lovys.com/
+**Areas:** Company · Insurance · Insurtech · Embedded Insurance · Partner API · Home Insurance · Pet Insurance · Smartphone Insurance · Authentication · Azure API Management
+
+## Lovys on APIs.io
+
+Everything profiled for Lovys is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lovys/](https://apis.io/providers/lovys/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Lovys Partner API](https://apis.io/apis/lovys/lovys-partner-api/) — Partner/reseller REST API to embed Lovys insurance products — real-time quotes, plans/pricing/coverage, customer data, policy purchase and activation, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lovys Authentication](https://apis.io/security/lovys/lovys-authentication/)
+- [Lovys Domain Security](https://apis.io/security/lovys/lovys-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lovys.com/)
+- [Documentation](https://docs.lovys.com/)
+- [Getting started](https://docs.lovys.com/getting-started)
+- [API reference](https://docs.lovys.com/api-reference)
+- [Sign up](https://docs.lovys.com/signup)
+- [Support](https://docs.lovys.com/support)
+- [Changelog](https://docs.lovys.com/api-changelog)
+- [Blog](https://lovys.com/fr/blog)
+
+## API Evangelist rating
+
+**Kin Score 16.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 6.6 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.5** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lovys/](https://apis.io/providers/lovys/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lovys: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lovys/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
